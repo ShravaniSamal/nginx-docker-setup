@@ -29,16 +29,11 @@ http://65.0.99.243:8080/service2/hello
 
 nginx-docker-setup/
 ├── docker-compose.yml
-
 ├── nginx/
-
 │   ├── nginx.conf          # Nginx routing and logging config
-
 │   └── Dockerfile          # Nginx container setup
-
 ├── service_1/
 │   ├── main.go             # Golang app source
-
 │   └── Dockerfile          # Dockerfile for Go app
 ├── service_2/
 │   ├── app.py              # Flask app source
